@@ -86,6 +86,6 @@ while True:
 section = document.sections[0]
 footer = section.footer
 p = footer.paragraphs[0]
-p.text = "CV generated using NellyCode"
+p.text = "CV generated using practice code"
 
 document.save('cv.docx')
